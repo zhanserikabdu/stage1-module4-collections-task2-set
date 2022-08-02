@@ -20,7 +20,7 @@ public class HashSetCreator {
 **Input**
 
 ```
-sourceList = [2, -1, 3, 8, -5, 12, 10]
+sourceList = [2, -1, 3, 8, -5, 12]
 ```
 
 **Output**
@@ -32,7 +32,7 @@ sourceList = [2, -1, 3, 8, -5, 12, 10]
 ## 2. Create Set of squares
 
 Implement the program which creates `TreeSet<Integer>` of squares of elements from `List<Integer>` and returns a `subset
-of this set`, consisting of elements in the range `[lowerBound, upperBound)`. To get subset use method
+of this set`, consisting of elements in the range `[lowerBound, upperBound]`. To get subset use method
 from `Interface NavigableSet<E>`.
 
 ```
@@ -49,7 +49,7 @@ public class SubsetOfSquaresCreator {
 ```
 sourceList = [2, -1, 5, -7, 4, 6, -9, 8]
 lowerBound = 25
-upperBound = 50
+upperBound = 49
 ```
 
 **Output**
